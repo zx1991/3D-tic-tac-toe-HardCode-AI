@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
  public class color : MonoBehaviour {
     public Color ObjectColor;
-    public int Side = 0;
+    public Int64 Side = 0;
 
 
     private Color currentColor;

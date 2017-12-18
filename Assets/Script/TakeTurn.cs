@@ -7,6 +7,18 @@ using UnityEngine.SceneManagement;
 
 public class TakeTurn : MonoBehaviour {
 
+
+    public bool testBool = false;
+
+    public Text testbutton;
+    public void testfunction() {
+
+
+        testBool = !testBool;
+
+        testbutton.text = testBool.ToString();
+
+    }
     public enum Turn { player, computer, gameOver ,wait};
 
     public Text text;
